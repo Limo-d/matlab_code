@@ -1,0 +1,13 @@
+xi_1=0.0;
+eta_1=0.0;
+xi_2=0.577;
+eta_2=-0.577;
+f=[0.0 1.0 3.0 1.0];
+val1=linquadref_1(xi_1,eta_1);
+val2=linquadref_1(xi_2,eta_2);
+deriv1=linquadderivref_1(xi_1,eta_1);
+deriv2=linquadderivref_1(xi_2,eta_2);
+pol1=f*val1;
+pol2=f*val2;
+dpoly1=f*deriv1;
+dpoly2=f*deriv2;
